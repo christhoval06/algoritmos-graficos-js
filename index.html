@@ -1,0 +1,51 @@
+<html>
+<head>
+	<title>algoritmos - Graficos</title>
+
+	<link href="css/jquery.mobile-1.3.1.min.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/mi.css" rel="stylesheet" type="text/css">
+
+	<script src="js/libs/jquery-1.10.1.min.js"></script>
+	<script src="js/libs/jquery.mobile-1.3.1.min.js"></script>
+
+</head>
+<body>
+<div data-role="page" data-theme="a">
+
+<div data-role="header">
+	<h1>Algoritmos - Graficos</h1>
+</div>
+
+<div data-role="content">
+	
+<div id="botones">
+	<div data-role="controlgroup" data-type="horizontal">
+	  <a href="javascript:dda_linea.init()" data-role="button">DDA - LINEA</a>
+	  <a href="javascript:bressham.init()"data-role="button">BRESSHAM - LINEA</a>
+	  <a href="javascript:circulo.init()" data-role="button">CIRCULO</a>
+	  <a href="javascript:circulo_relleno.init()" data-role="button">CIRCULO - RELLENO</a>
+	  <a href="javascript:elipse.init()"data-role="button">ELIPSE</a>
+	  <a href="javascript:ejemplo.init()"data-role="button">EJEMPLO - USO</a>
+	</div>
+</div>
+<div id="canva"></div>
+<div id="botonera"></div>
+</div>
+
+<div data-role="footer" data-position="fixed"> 
+	<h5 style="text-align: right;">by Ricardo Luis Hernandez</h5> 
+</div> 
+	
+
+</div>
+
+
+<script src="js/app/dda.linea.js"></script>
+<script src="js/app/bressham.js"></script>
+<script src="js/app/circulo.js"></script>
+<script src="js/app/circulo.relleno.js"></script>
+<script src="js/app/elipse.js"></script>
+<script src="js/app/ejemplo.js"></script>
+
+</body>
+</html>
